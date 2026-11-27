@@ -13,8 +13,17 @@ anyVariable = ["Apple", "Mango"]
 
 // unknown
 let someVariable: unknown
+let boolVar: boolean
 someVariable = 40
 
 if(typeof someVariable === "number") {
     someVariable.toFixed(2)
 }
+
+
+someVariable = true
+if(typeof someVariable === "boolean") {
+    boolVar = someVariable  // Yaha theek ha 
+}
+
+// boolVar = someVariable  // Err dega
